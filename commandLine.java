@@ -15,7 +15,10 @@ public class commandLine {
         int marks1 = Integer.parseInt(strMarks1);
         int marks2 = Integer.parseInt(strMarks2);
         int marks3 = Integer.parseInt(strMarks3);
-        int totalMarks = marks1 + marks2 + marks3;
+        int total = marks1 + marks2 + marks3;
+        double percentage = (total / 300.0) * 100;
+        System.out.println("Total Marks: " + total);
+        System.out.println("Percentage: " + percentage);
 
     }
     }
